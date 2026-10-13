@@ -191,6 +191,7 @@ static void render_frame(const uint8_t *cells, const uint16_t *palette) {
     }
     if (canvas) lv_obj_invalidate(canvas);
 }
+void splash_note_refresh_done(void) {}
 #endif
 
 // ---- Mini creature: a small animated creature for embedding in other screens
